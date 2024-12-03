@@ -1,8 +1,23 @@
-# React + Vite
+# My Cart
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Project Description  
+This is a simple single-page shopping cart application built with React and Redux Toolkit, powered by Vite for fast development. The app allows users to increase or decrease item quantities in the cart, clear the entire cart, and interact with a modal for additional actions. It showcases state management using Redux Toolkit to handle cart updates and modal visibility.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### How to Run  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/gaaludec/my-cart-react-rtk.git
+   ```
+2. Navigate to the project directory:  
+   ```bash
+   cd my-cart-react-rtk
+   ```
+3. Install dependencies:  
+   ```bash
+   npm install
+   ```
+4. Start the development server:  
+   ```bash
+   npm run dev
+   ```
+5. Open the app in your browser at `http://localhost:5173`.
